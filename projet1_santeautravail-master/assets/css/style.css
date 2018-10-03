@@ -60,23 +60,33 @@ nav{
 .logo_pres{
 	max-width: 285px;
 	max-height: 285px;
+			margin-left: 30%;
+		margin-right: 30%;
+}
+
+/*@media (min-width: 360px) {
+	.logo_pres{
+		margin-left: 15%;
+	}
+}
+@media (min-width: 450px) {
+	.logo_pres{
+		margin-left: 20%;
+	}
 }
 @media (min-width: 576px) {
 	.logo_pres{
 		margin-left: 25%;
 	}
 }
-@media (min-width: 375px) {
+*/
+@media (min-width: 991px) { 
 	.logo_pres{
-		margin-left: 15%;
+		margin-left: 0%;
+		margin-right: 0%;
 	}
 }
-@media (min-width: 768px) { 
-	.logo_pres{
-		margin-left: 30%;
-	}
-}
- }
+
  
 /*CSS_alicia*/
 /*activites*/
